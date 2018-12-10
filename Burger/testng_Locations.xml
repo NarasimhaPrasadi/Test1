@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.BurgerApp.LocationScripts.VerifyOrderScreenFromLocationCity"/>
+      <class name="com.BurgerApp.LocationScripts.SearchLocationByAddress"/>
+      <class name="com.BurgerApp.LocationScripts.SearchLocationByZipCode"/>
+      <class name="com.BurgerApp.LocationScripts.SearchLocationByState"/>
+      <class name="com.BurgerApp.LocationScripts.VerifyOrderScreenFromLocationUnitId"/>
+      <class name="com.BurgerApp.LocationScripts.VerifySelectPickupScreenByGpsDisabled"/>
+      <class name="com.BurgerApp.LocationScripts.VerifyGpsEnabledLocation"/>
+      <class name="com.BurgerApp.LocationScripts.SearchLocationByCity"/>
+      <class name="com.BurgerApp.LocationScripts.SearchLocationByUnitId"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

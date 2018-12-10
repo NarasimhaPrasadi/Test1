@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test script for project execution start time">
+		<classes>
+			<class name="com.appium.model.StartExecution" />
+		</classes>
+	</test>
+	 <test name="Test script for SearchLocationByAddress">
+    <classes>
+      <class name="com.BurgerApp.LocationScripts.SearchLocationByAddress"/>
+    </classes>
+    </test>
+    
+     <test name="Test script for SearchLocationByCity">
+    <classes>
+      <class name="com.BurgerApp.LocationScripts.SearchLocationByCity"/>
+    </classes>
+    </test> 
+    
+     <test name="Test script for SearchLocationByState">
+    <classes>
+      <class name="com.BurgerApp.LocationScripts.SearchLocationByState"/>
+    </classes>
+    </test> 
+    
+    <test name="Test script for SearchLocationByUnitId">
+    <classes>
+      <class name="com.BurgerApp.LocationScripts.SearchLocationByUnitId"/>
+    </classes>
+    </test> 
+ <!-- 	<test name="Test script for VerifySignUp">
+    <classes>
+      <class name="com.BurgerApp.LaunchScreenScripts.VerifySignUp"/>
+    </classes>
+  </test> 
+   <test name="Test script for VerifyHomeScreenWithoutSignIn">
+    <classes>
+      <class name="com.BurgerApp.HomePageScripts.VerifyHomeScreenWithoutSignIn"/>
+    </classes>
+  </test> 
+  <test name="Test script for VerifySignUpGooglePlus">
+    <classes>
+      <class name="com.BurgerApp.HomePageScripts.VerifySignUpGooglePlus"/>
+    </classes>
+  </test> 
+  <test name="Test script for VerifySignUpAlmostFields">
+    <classes>
+      <class name="com.BurgerApp.HomePageScripts.VerifySignUpAlmostFields"/>
+    </classes>
+  </test>
+   <test name="Test script for VerifySignUpAlmostDisagree">
+    <classes>
+      <class name="com.BurgerApp.HomePageScripts.VerifySignUpAlmostDisagree"/>
+    </classes>
+  </test>
+   <test name="Test script for VerifySignupGoolgePlusYearChange">
+    <classes>
+      <class name="com.BurgerApp.HomePageScripts.VerifySignupGoolgePlusYearChange"/>
+    </classes>
+  </test>
+  <test name="Test script for VerifyFacebookSignInWithCredentials">
+    <classes>
+      <class name="com.BurgerApp.HomePageScripts.VerifyFacebookSignInWithCredentials"/>
+    </classes>
+  </test>
+  <test name="Test script for VerifyFacebookSignInWithoutCredentials">
+    <classes>
+      <class name="com.BurgerApp.HomePageScripts.VerifyFacebookSignInWithoutCredentials"/>
+    </classes>
+  </test>
+  <test name="Test script for VerifyFBLoginSettingsScreen">
+    <classes>
+      <class name="com.BurgerApp.HomePageScripts.VerifyFBLoginSettingsScreen"/>
+    </classes>
+  </test>
+  <test name="Test script for SearchLocationsbyGPSDisabled">
+    <classes>
+      <class name="com.BurgerApp.HomePageScripts.SearchLocationsbyGPSDisabled"/>
+    </classes>
+  </test>
+  <test name="Test script for VerifyLocationElements">
+    <classes>
+      <class name="com.BurgerApp.LocationScripts.VerifyLocationElements"/>
+    </classes>
+  </test>
+   <test name="Test script for VerifyLocationElements">
+    <classes>
+      <class name="com.BurgerApp.HomePageScripts.CheckWifiOffScenarios"/>
+    </classes>
+  </test> -->
+  <test name="Test script for project execution end time">
+		<classes>
+			<class name="com.appium.model.EndExecution" />
+		</classes>
+	</test>
+</suite> 

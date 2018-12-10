@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.BurgerApp.OrderScripts.ValidateLocationSearch_ValidAddress"/>
+      <class name="com.BurgerApp.OrderScripts.ValidateLocationSearch_UnitId"/>
+      <class name="com.BurgerApp.OrderScripts.GpsEnabled_ValidateLocationSummaryByCitySearch"/>
+      <class name="com.BurgerApp.OrderScripts.GpsDisable_VerifyPostSignInDonNotAskMessageNotDisplayed"/>
+      <class name="com.BurgerApp.OrderScripts.FakeGpsValidateBy_CityName"/>
+      <class name="com.BurgerApp.OrderScripts.GpsDisabled_WifiOff_RefreshTapVerifyNoNetworkConnection"/>
+      <class name="com.BurgerApp.OrderScripts.ValidateBackButton_WithStartNewOrder"/>
+      <class name="com.BurgerApp.OrderScripts.ValidateLocationSearch_CountryName"/>
+      <class name="com.BurgerApp.OrderScripts.ValidateLocationSearch_StateName"/>
+      <class name="com.BurgerApp.OrderScripts.ValidateLocationSearch_ZipCode"/>
+      <class name="com.BurgerApp.OrderScripts.ValidateDistanceFromPin_Miles"/>
+      <class name="com.BurgerApp.OrderScripts.ValidateLocationSearch_CityName"/>
+      <class name="com.BurgerApp.OrderScripts.ValidateLocationSearch_AddressWithGPSEnabled"/>
+      <class name="com.BurgerApp.OrderScripts.GpsEnabled_Wifi_Off_VerifyNetworkPopup"/>
+      <class name="com.BurgerApp.OrderScripts.ValidateLocationSearchInSelectLocationPickUpScreen"/>
+      <class name="com.BurgerApp.OrderScripts.SearchLocationByInvalidZipcode"/>
+      <class name="com.BurgerApp.OrderScripts.VerifyDineInPickUpMethod"/>
+      <class name="com.BurgerApp.OrderScripts.ValidateUnFavoriteLocation"/>
+      <class name="com.BurgerApp.OrderScripts.VerifyTakeOutPickUpMethod"/>
+      <class name="com.BurgerApp.OrderScripts.GpsEnableValidateLocationsSwitch_MobileOrder"/>
+      <class name="com.BurgerApp.OrderScripts.ValidateAddFavoriteLocationInSelectLocationPickUpScreen"/>
+      <class name="com.BurgerApp.OrderScripts.ValidateLocationSearch_ZipCodeGpsEnabled"/>
+      <class name="com.BurgerApp.OrderScripts.GpsEnabledValidateAllRestaurantByCitySearch"/>
+      <class name="com.BurgerApp.OrderScripts.ValidateLocationPickUpScreenUI"/>
+      <class name="com.BurgerApp.OrderScripts.GpsDisabledDineInFilterVerify_DineIn"/>
+      <class name="com.BurgerApp.OrderScripts.SearchLocationByInvalidAddress"/>
+      <class name="com.BurgerApp.OrderScripts.GpsEnabled_VerifyMobileOrderingPopupWithOkButton"/>
+      <class name="com.BurgerApp.OrderScripts.VerifyDriveThruPickUpMethod"/>
+      <class name="com.BurgerApp.OrderScripts.RefreshMapLocation"/>
+      <class name="com.BurgerApp.OrderScripts.VerifyNetworkPopupFavouriteTabTapLink"/>
+      <class name="com.BurgerApp.OrderScripts.GpsDisableVerifyNoNetworkPopupOnHeartTapFavouriteTab"/>
+      <class name="com.BurgerApp.OrderScripts.ValidateLocationSearch_CityGpsEnabled"/>
+      <class name="com.BurgerApp.OrderScripts.GpsDisabledVerifyDineInDriveThru_Earn"/>
+      <class name="com.BurgerApp.OrderScripts.SearchLocationByInvalidCity"/>
+      <class name="com.BurgerApp.OrderScripts.GpsDisableVerifyNoNetworkPopUpOnHeartTapOrderScreen"/>
+      <class name="com.BurgerApp.OrderScripts.AssertListByOrderScreen"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
